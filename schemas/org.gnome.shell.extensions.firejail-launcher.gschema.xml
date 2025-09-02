@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  Firejail Launcher GNOME Extension - Settings Schema
+  
+  Author: Youssef Trii
+  Website: https://github.com/nt-edv
+  License: GPL-3.0
+-->
+<schemalist>
+  <schema id="org.gnome.shell.extensions.firejail-launcher" path="/org/gnome/shell/extensions/firejail-launcher/">
+    <key name="firejail-enabled" type="b">
+      <default>true</default>
+      <summary>Enable Firejail for all applications</summary>
+      <description>When enabled, applications will be launched through Firejail sandbox for enhanced security</description>
+    </key>
+    <key name="sandbox-level" type="u">
+      <default>0</default>
+      <summary>Sandbox security level</summary>
+      <description>0=Basic (Lightweight sandboxing, blocks root privileges, full access maintained), 1=Strict (System call filtering, blocks dangerous operations, maintains network), 2=Paranoid (Complete isolation, private filesystem, no network connectivity)</description>
+    </key>
+    <key name="app-overrides" type="a{su}">
+      <default>{}</default>
+      <summary>Per-application security overrides</summary>
+      <description>Dictionary mapping application IDs to security levels: 0=Basic, 1=Strict, 2=Paranoid, 99=Bypass (no Firejail)</description>
+    </key>
+  </schema>
+</schemalist>

@@ -8,7 +8,7 @@
 
 set -e
 
-EXTENSION_UUID="firejail-launcher@ytrii.local"
+EXTENSION_UUID="firejail-launcher@nt-edv.github"
 EXTENSION_DIR="$HOME/.local/share/gnome-shell/extensions/$EXTENSION_UUID"
 PROJECT_DIR="$(dirname "$0")"
 

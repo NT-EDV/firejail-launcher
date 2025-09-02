@@ -47,7 +47,7 @@ A GNOME Shell Extension that automatically runs applications through Firejail sa
 ### Settings
 Open extension settings via:
 - GNOME Extensions App → Firejail Launcher → Settings
-- Or: `gnome-extensions prefs firejail-launcher@ytrii.local`
+- Or: `gnome-extensions prefs firejail-launcher@nt-edv.github`
 
 ### Security Levels
 - **Basic (Recommended):** Lightweight sandboxing with essential protections
