@@ -1,0 +1,25 @@
+# Firejail Launcher GNOME Extension
+
+# Compiled schemas
+schemas/gschemas.compiled
+
+# IDE files
+.vscode/
+*.swp
+*.swo
+*~
+
+# Backup files
+*.bak
+*.orig
+
+# Test files
+debug-*.js
+extension-test*.js
+extension-minimal*.js
+extension-simple*.js
+extension-ultra*.js
+extension-working*.js
+
+# Build artifacts
+*.log

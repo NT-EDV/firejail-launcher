@@ -1,0 +1,14 @@
+{
+  "name": "firejail-launcher",
+  "description": "GNOME Extension that runs applications through Firejail sandbox",
+  "uuid": "firejail-launcher@ytrii.local",
+  "shell-version": [
+    "45",
+    "46",
+    "47"
+  ],
+  "version": 3,
+  "url": "https://github.com/nt-edv",
+  "settings-schema": "org.gnome.shell.extensions.firejail-launcher",
+  "gettext-domain": "firejail-launcher"
+}

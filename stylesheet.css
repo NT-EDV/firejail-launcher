@@ -1,0 +1,10 @@
+/* Firejail Launcher Extension - GNOME System Colors */
+
+.system-status-icon.firejail-active {
+    color: #26a269; /* GNOME Green (success color) */
+}
+
+.system-status-icon.firejail-inactive {
+    color: #ffffff;
+    opacity: 0.7;
+}
